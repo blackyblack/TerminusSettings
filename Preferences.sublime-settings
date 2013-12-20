@@ -1,0 +1,20 @@
+{
+	"auto_complete": false,
+	"color_scheme": "Packages/TerminusTheme/Green.tmTheme",
+	"detect_indentation": false,
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"font_face": "Terminus (TTF)",
+	"font_options":
+	[
+		"no_antialias"
+	],
+	"font_size": 12,
+	"hide_minimap": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_minimap": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
