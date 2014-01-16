@@ -1,0 +1,25 @@
+{
+  "file_regex": "^(.*?)\\(([0-9]+)\\)",
+  "working_dir": "${project_path:${folder}}",
+  "shell": true,
+
+  "variants":
+  [
+        { 
+            "cmd": ["IarBuild.exe", "${project_base_name}.ewp", "-clean", "Release", "-log", "all"],
+            "name": "Clean"
+        },
+
+        { 
+            "cmd": ["IarBuild.exe", "${project_base_name}.ewp", "-build", "Release", "-log", "all"],
+            "name": "Build"
+        },
+
+        { 
+            "cmd": ["IarBuild.exe", "${project_base_name}.ewp", "-make", "Release", "-log", "warnings"],
+            "name": "Make"
+        }
+  ],
+
+  "path": "D:/IAR/Embedded Workbench 6.5/common/bin/"
+}
